@@ -1,0 +1,41 @@
+######################### python train_stationary.py -e fixed_tdrl -s 771
+# Model Configurations  #
+#########################
+
+ROOT: '/root_path/caring/datasets'
+LOG: '/root_path/log'
+DATASET: 'ug'
+
+  
+VAE:
+    GPU: [0]
+    CPU: 4
+    TRAIN_BS: 64
+    VAL_BS: 128
+    EPOCHS: 50
+    N_VAL_SAMPLES: 1024
+    LAG: 1
+    LENGTH: 9
+    TRANS_PRIOR: 'NP'
+    LR: 1.0e-3
+    BETA: 3.0e-3
+    GAMMA: 1.0e-2
+    INPUT_DIM: 2
+    LATENT_DIM: 3
+    BIAS: FALSE
+    ENC:
+        HIDDEN_DIM: 128
+        SIDE_TRUEZ: 0
+        SIDE_TRUEX: 0
+    DEC:
+        HIDDEN_DIM: 128
+        DIST: 'gaussian'
+        SIDE_TRUEZ: 0
+        SIDE_HATZ: 0
+        SIDE_TRUEX: 0
+    PIN: TRUE
+    
+
+MCC:
+    FREQ: 0.1
+    CORR: 'Pearson' # 'Spearman'
