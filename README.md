@@ -21,12 +21,12 @@ Official implementation of the paper "[CaRiNG: Learning Temporal Causal Represen
 
 - We present a principled approach, CaRiNG, to learn the latent causal representation from temporal data under non-invertible generation processes with identifiability guarantees, by integrating temporal context information to recover the lost information.
 
-- Our evaluations across synthetic and real-world datasets demonstrate the \caring's effectiveness for learning the identifiable latent causal representation, leading to enhancements in video reasoning tasks.
+- Our evaluations across synthetic and real-world datasets demonstrate the CaRiNG's effectiveness for learning the identifiable latent causal representation, leading to enhancements in video reasoning tasks.
 
 ## Results
 ![syn](imgs/CaRiNG_exp.png)
 
-> **Qualitative comparisons between baselines (especially TDRL) and CaRiNG in the setting of Non-invertible Generation.** (a) MCC matrix for all 3 latent variables; (b) The scatter plots between the estimated and ground-truth latent variables (only the aligned variables are plot); (c) The validation MCC curves of \ourmeos and other baselines.
+> **Qualitative comparisons between baselines (especially TDRL) and CaRiNG in the setting of Non-invertible Generation.** (a) MCC matrix for all 3 latent variables; (b) The scatter plots between the estimated and ground-truth latent variables (only the aligned variables are plot); (c) The validation MCC curves of CaRiNG and other baselines.
 
 | Settings\Methods | NG                      | NG-TDMP                 |
 |------------------|-------------------------|-------------------------|
