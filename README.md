@@ -24,7 +24,7 @@ Official implementation of the paper "[CaRiNG: Learning Temporal Causal Represen
 - Our evaluations across synthetic and real-world datasets demonstrate the CaRiNG's effectiveness for learning the identifiable latent causal representation, leading to enhancements in video reasoning tasks.
 
 ## Results
-![syn](imgs/CaRiNG_exp.png)
+![syn](imgs/CaRiNG_exp.jpg)
 
 > **Qualitative comparisons between baselines (especially TDRL) and CaRiNG in the setting of Non-invertible Generation.** (a) MCC matrix for all 3 latent variables; (b) The scatter plots between the estimated and ground-truth latent variables (only the aligned variables are plot); (c) The validation MCC curves of CaRiNG and other baselines.
 
@@ -72,7 +72,7 @@ pip install -e .
 ```
 
 ### Configuration
-Modify `root_path` to your repo path (where you are now) in [caring/configs/ug.yaml](caring/configs/ug.yaml) and [caring/configs/ug_tdmp.yaml](caring/configs/ug_tdmp.yaml) respectively.
+Modify `root_path` to your repo path (where you are now) in [caring/configs/caring_ng.yaml](caring/configs/caring_ng.yaml) and [caring/configs/caring_ng_tdmp.yaml](caring/configs/caring_ng_tdmp.yaml) respectively.
 
 ### Run
 Go to the ```scripts``` folder and run the following command to reproduce the results.
