@@ -55,7 +55,7 @@ git lfs install
 
 Then download the code with datasets.
 ```bash
-git clone git clone git@github.com:sanshuiii/CaRiNG.git
+git clone git@github.com:sanshuiii/CaRiNG.git
 ```
 
 You can also download the code only without datasets in case of network issue.
