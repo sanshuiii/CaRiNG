@@ -30,15 +30,15 @@ Official implementation of the paper "[CaRiNG: Learning Temporal Causal Represen
 
 | Settings\Methods | NG                      | NG-TDMP                 |
 |------------------|-------------------------|-------------------------|
-| CaRiNG           | $0.933 \plusmn 0.010$ | $0.921 \plusmn 0.010$ |
-| TDRL             | $0.627 \plusmn 0.009$ | $0.837 \plusmn 0.068$ |
-| LEAP             | $0.651 \plusmn 0.019$ | $0.704 \plusmn 0.005$ |
-| SlowVAE          | $0.362 \plusmn 0.041$ | $0.398 \plusmn 0.037$ |
-| PCL              | $0.507 \plusmn 0.091$ | $0.489 \plusmn 0.095$ |
-| betaVAE          | $0.551 \plusmn 0.007$ | $0.437 \plusmn 0.021$ |
-| SKD              | $0.489 \plusmn 0.077$ | $0.381 \plusmn 0.084$ |
-| iVAE             | $0.391 \plusmn 0.686$ | $0.553 \plusmn 0.097$ |
-| SequentialVAE    | $0.750 \plusmn 0.035$ | $0.847 \plusmn 0.019$ |
+| CaRiNG           | $0.933 \textpm 0.010$ | $0.921 \textpm 0.010$ |
+| TDRL             | $0.627 \textpm 0.009$ | $0.837 \textpm 0.068$ |
+| LEAP             | $0.651 \textpm 0.019$ | $0.704 \textpm 0.005$ |
+| SlowVAE          | $0.362 \textpm 0.041$ | $0.398 \textpm 0.037$ |
+| PCL              | $0.507 \textpm 0.091$ | $0.489 \textpm 0.095$ |
+| betaVAE          | $0.551 \textpm 0.007$ | $0.437 \textpm 0.021$ |
+| SKD              | $0.489 \textpm 0.077$ | $0.381 \textpm 0.084$ |
+| iVAE             | $0.391 \textpm 0.686$ | $0.553 \textpm 0.097$ |
+| SequentialVAE    | $0.750 \textpm 0.035$ | $0.847 \textpm 0.019$ |
 
 > **MCC scores** (with standard deviations over 4 seeds) of CaRiNG and baselines on NG and NG-TDMP settings.
 
