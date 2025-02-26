@@ -91,4 +91,15 @@ python data_generator/NG.py 12
 python data_generator/NG-TDMP.py 12
 ```
 
+### Citation
+```
+@misc{
+chen2024learning,
+title={Learning Temporal Causal Representation under Non-Invertible Generation Process},
+author={Guangyi Chen and Yifan Shen and Zhenhao Chen and Xiangchen Song and Yuewen Sun and Weiran Yao and Xiao Liu and Kun Zhang},
+year={2024},
+url={https://openreview.net/forum?id=5tSLtvkHCh}
+}
+```
+
 
